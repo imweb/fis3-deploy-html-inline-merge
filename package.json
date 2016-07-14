@@ -1,0 +1,25 @@
+{
+  "name": "fis3-deploy-html-inline-merge",
+  "version": "0.0.1",
+  "description": "fis3 合并html中的style/script inline标签",
+  "keywords": [
+    "fis",
+    "fis3",
+    "fis3-deploy"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "fishineyuan"
+  },
+  "license": "BSD",
+  "homepage": "https://github.com/imweb/fis3-deploy-html-inline-merge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imweb/fis3-deploy-html-inline-merge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imweb/fis3-deploy-html-inline-merge/issues"
+  },
+  "dependencies": {
+  }
+}
