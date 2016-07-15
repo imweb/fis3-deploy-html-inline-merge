@@ -1,6 +1,6 @@
 {
   "name": "fis3-deploy-html-inline-merge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fis3 合并html中的style/script inline标签",
   "keywords": [
     "fis",
