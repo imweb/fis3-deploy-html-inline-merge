@@ -9,7 +9,7 @@ module.exports = function(opts, modified, total, next) {
         if (file.isHtmlLike) {
             var content = file.getContent();
 
-            content = content.replace(new RegExp('(' + script.source + '\s*){2,}', 'g'), function(str) {
+            content = content.replace(new RegExp('(' + script.source + '\\s*){2,}', 'g'), function(str) {
                 var code = [],
                     match = null;
                 while (match = script.exec(str)) {
@@ -18,7 +18,7 @@ module.exports = function(opts, modified, total, next) {
                 return '<script>' + code.join(';\n') + '</script>\n';
             });
 
-            content = content.replace(new RegExp('(' + style.source + '\s*){2,}', 'g'), function(str) {
+            content = content.replace(new RegExp('(' + style.source + '\\s*){2,}', 'g'), function(str) {
                 var code = [],
                     match = null;
                 while (match = style.exec(str)) {
